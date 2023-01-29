@@ -1,0 +1,104 @@
+.wrapper
+{
+    background: linear-gradient(to right,rgba(55, 0, 60,0.6) 25%,rgba(187,157,251,0.5)),url('../tt.png') !important;
+    height: 350px;
+    background-repeat: no-repeat !important;
+    background-size: cover !important;
+    background-attachment: fixed !important;
+   
+}
+
+.details__futsal
+{
+    background:rgba(55, 0, 60,0.1);
+    padding: 20px;
+    box-shadow: inset 0px 0px 5px white, 0px 13px 35px rgba(0,0,0,0.6);
+    border-radius: 8px;
+    background-clip: padding-box;
+    backdrop-filter: blur(12px);
+    margin:0px 5px 0px 5px;
+    position: relative;
+    z-index: 3;
+
+}
+
+
+.futsalCard
+{
+    background:white !important;
+    border:none !important;
+    box-shadow: 1px 1px 5px rgba(0,0,0,0.6);
+    border-radius: 6px;
+    cursor: pointer;
+    margin:0px 5px 10px 5px;
+}
+.futsalCard:hover
+{
+    border: 1px solid grey !important;
+}
+.cardImg
+{
+    width:100%;
+    height:250px;
+    border-radius: 6px 6px 0px 0px;
+    overflow: hidden;
+    padding: 0px;
+}
+.cardImg img
+{
+    width: 100%;
+    height: 100%;
+    position: relative;
+    z-index: 0;
+}
+.my__login__btns
+{
+    border-radius:3px;
+    padding:4px;
+    color:white !important;
+    width:120px;
+    
+    height:40px;
+
+}
+.futsal__info__key
+{
+    color:pink;
+}
+.futsal__info__value
+{
+    color:white;
+}
+.modal__design
+{
+    background: rgb(57, 57, 242,0.2);
+    background-clip: padding-box;
+    backdrop-filter: blur(10px);
+    border-radius:10px;
+    box-shadow: inset 0px 0px 5px transparent;
+    border:2px solid transparent;
+}
+.modal__design label
+{
+    color:white;
+}
+.output-box
+{
+    width: 100%;
+    background:white;
+    box-shadow: 0px 0px 3px black;
+   max-height: 300px;
+   overflow: auto;
+  
+    
+}
+.search__items
+{
+    cursor: pointer;
+    border-bottom: 1px solid grey;
+    font-weight: 400;
+    font-size: 15px;
+    background:rgba(255, 255, 255,0.1);
+    
+   
+}

@@ -1,0 +1,43 @@
+.inputDetails input
+{
+    display: inline-block;
+    width: 80px;
+    text-align: center;
+    background: rgba(0,0,0,0.2);
+    background-clip: padding-box;
+    backdrop-filter: blur(30px);
+    border:1px solid transparent;
+    border-radius: 3px;
+    color:black;
+    font-weight: bolder;
+    font-size: 32px;
+    height: 60px;
+}
+.output-box
+{
+    width: 100%;
+    background:white;
+    box-shadow: 0px 0px 3px black;
+    
+}
+.search__items
+{
+    cursor: pointer;
+    border-bottom: 1px solid grey;
+    color:grey;
+    font-weight: 400;
+    font-size: 15px;
+}
+.imgg
+{
+    width:90px;
+    height: 90px;
+    padding: 0px;
+    overflow: hidden;
+}
+.imgg img
+{
+    width: 100%;
+    height: 100%;
+    padding: 0px;
+}
